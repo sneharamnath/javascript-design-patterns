@@ -1,3 +1,10 @@
+//Proxy Pattern: Allows one to use one object(proxy) as a placeholder for another object.
+//Proxy can control access to that object. So instead of using the object directly we can make use of proxy to use that object.
+//Proxies can be used to add extra functionality like cache.
+
+//This program is to demo a cryptocurreny program that displays values of various cryptocurrency. In order to get
+//these values we make external API calls and with use of proxy we can limit the no. of API calls be using a cache.
+
 function CryptocurrencyAPI(){
     this.getValue = function(coin){
         console.log("Calling External API")

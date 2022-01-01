@@ -1,3 +1,7 @@
+//Observer Pattern: This is used to define 1:many relationship from 1 object(Subject) to many objects(observers)
+//Observers can be functions which watch the subject and wait for some signal or trigger from subject before they are called.
+
+
 function Subject(){
     this.observers = [];
 }
