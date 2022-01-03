@@ -4,7 +4,7 @@ This repo is my learning of design patterns in JavaScript with small examples to
 
 ## What are design patterns?
 
-Design patterns are a generic solution to a common software design pattern.
+Design patterns are a generic solution to a common software design problem.
 
 ## Types of design patterns
 
