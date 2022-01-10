@@ -58,7 +58,7 @@ Design patterns are a generic solution to a common software design problem.
 - The object you want to extend a.k.a receiving object should have an `accept` method which takes in visitor object and provides the visitor object access to different information and properties of that object. 
 - This pattern is useful when we need to extend the functionality of a library or framework.
 
-### Pub/sub pattern
+### [Pub/sub pattern](https://github.com/sneharamnath/javascript-design-patterns/blob/master/PubSubPattern.js)
 
 - Allows one to define many to many relationship. 
 - The pub/sub model contains a middleware called the pub/sub broker or message broker. The publishers send events/content to the broker and the broker handles the content delivery to interested subscribers. 
