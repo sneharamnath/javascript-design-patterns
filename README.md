@@ -43,3 +43,7 @@ Design patterns are a generic solution to a common software design pattern.
 ### Visitor pattern
 
 `Allows one to add extra functionality/methods to the object without changing the object. The new functionality and logic is kept in a seperate object/function a.k.a visitor object/visitor function. The object you want to extend a.k.a receiving object should have an accept method which takes in visitor object and provides the visitor object access to different information and properties of that object. This pattern is useful when we need to extend the functionality of a library or framework.`
+
+### Pub/sub pattern
+
+`Allows one to define many to many relationship. The pub/sub model contains a middleware called the pub/sub broker or message broker. The publishers send events/content to the broker and the broker handles the content delivery to interested subscribers. The publishers publishes the content to a topic and the interested subscribers access these content by sending subscriptions to the message broker channel`
